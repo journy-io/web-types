@@ -1,11 +1,9 @@
-[![journy.io](banner.png)](https://journy.io/?utm_source=github&utm_content=readme-web-types)
-
-# web-types
+# Web types
 
 ![npm](https://img.shields.io/npm/v/@journyio/web-types?color=%234d84f5&style=flat-square)
 [![npm downloads](https://img.shields.io/npm/dm/@journyio/web-types?style=flat-square)](https://www.npmjs.com/package/@journyio/web-types)
 
-:description
+Enables type-safe usage of our website snippet. A full web SDK will be released later this year.
 
 ## 💾 Installation
 
@@ -138,14 +136,6 @@ journy("event", {
 });
 ```
 
-## 💯 Tests
-
-To run the tests:
-
-```bash
-npm run test
-```
-
 ## 🔒 Security
 
-If you discover any security related issues, please email hans at journy io instead of using the issue tracker.
+If you discover any security related issues, please email security at journy io instead of using the issue tracker.
