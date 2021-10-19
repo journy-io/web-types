@@ -45,6 +45,12 @@ journy("pageview");
 
 #### Identify user
 
+💡 A user ID should be a robust, static, unique identifier that you recognize a user by in your own systems. Because these IDs are consistent across a customer’s lifetime, you should include a User ID in Identify calls as often as you can. Ideally, the user ID should be a database ID.
+
+💡 journy.io does not recommend using simple email addresses or usernames as as a user ID, as these can change over time. journy.io recommends that you use static IDs instead, so the IDs never change. When you use a static ID, you can still recognize the user in your analytics tools, even if the user changes their email address.
+
+💡 The properties `full_name`, `first_name`, `last_name`, `phone` and `registered_at` will used to create contacts/users in destinations like Intercom, HubSpot, Salesforce, ...
+
 ```ts
 journy("identify", {
   // Email or user ID is required
@@ -75,6 +81,10 @@ journy("identify", {
 ```
 
 #### Add user to an account
+
+💡 An account ID should be a robust, static, unique identifier that you recognize a user by in your own systems. Because these IDs are consistent across a customer’s lifetime, you should include a account ID in Identify calls as often as you can. Ideally, the account ID should be a database ID.
+
+💡 The properties `name`, `mrr`, `plan` and `registered_at` will used to create companies/accounts in destinations like Intercom, HubSpot, Salesforce, ...
 
 ```ts
 journy("account", {
