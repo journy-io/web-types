@@ -37,3 +37,7 @@ declare namespace JournyIO_ {
 }
 
 declare let journy: JournyIO_.JournyIO;
+
+interface Window {
+  journy: JournyIO_.JournyIO;
+}
