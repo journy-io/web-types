@@ -101,7 +101,7 @@ journy("account", {
 
 #### Trigger an event
 
-ð Use past tense for event names
+💡 Use past tense for event names
 
 ```ts
 // User events
