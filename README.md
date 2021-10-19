@@ -21,7 +21,7 @@ yarn add @journyio/web-types
 
 💡 You can find the snippet in the website settings
 
-```
+```ts
 import "@journyio/web-types";
 ```
 
