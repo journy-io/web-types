@@ -19,7 +19,11 @@ yarn add @journyio/web-types
 
 ## 🔌 Getting started
 
-You can find the snippet in the website settings.
+💡 You can find the snippet in the website settings
+
+```
+import "@journyio/web-types";
+```
 
 ### Methods
 
