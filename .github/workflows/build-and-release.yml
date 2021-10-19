@@ -15,7 +15,6 @@ jobs:
           scope: "@journyio"
       - run: npm install
       - run: npm run lint
-      - run: npm run test
       - name: Get the version
         id: get_version
         run: echo ::set-output name=tag::${GITHUB_REF/refs\/tags\//}
