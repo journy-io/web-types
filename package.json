@@ -3,7 +3,7 @@
   "homepage": "https://github.com/journy-io/web-types",
   "repository": "github:journy-io/web-types",
   "version": "0.0.0",
-  "description": ":description",
+  "description": "TypeScript types for our website snippet",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
