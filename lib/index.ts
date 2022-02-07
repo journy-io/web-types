@@ -6,7 +6,7 @@ declare namespace JournyIO_ {
   type Metadata = Record<string, string | boolean | number | Date>;
 
   type InitArgs = { trackerId: string; domain: string };
-  
+
   type PageArgs = { accountId?: string; verification?: string };
 
   type IdentifyArgs = {
