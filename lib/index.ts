@@ -7,10 +7,7 @@ declare namespace JournyIO_ {
 
   type InitArgs = { trackerId: string; domain: string };
   
-  type PageArgs = {
-    accountId?: string;
-    verification?: string;
-  };
+  type PageArgs = { accountId?: string; verification?: string };
 
   type IdentifyArgs = {
     email?: string;
