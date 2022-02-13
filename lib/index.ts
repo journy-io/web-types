@@ -9,6 +9,8 @@ declare namespace JournyIO_ {
 
   type PageArgs = { accountId?: string; verification?: string };
 
+  type ScreenArgs = { name: string; accountId?: string; verification?: string };
+
   type IdentifyArgs = {
     email?: string;
     userId?: string;
@@ -32,6 +34,7 @@ declare namespace JournyIO_ {
   interface JournyIO {
     (command: "init", args: InitArgs, callback?: Callback): void;
     (command: "pageview", args?: PageArgs, callback?: Callback): void;
+    (command: "screen", args?: ScreenArgs, callback?: Callback): void;
     (command: "identify", args: IdentifyArgs, callback?: Callback): void;
     (command: "account", args: AccountArgs, callback?: Callback): void;
     (command: "event", args: EventArgs, callback?: Callback): void;
